@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    background-color: Teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  .chessboard {
+   border: 3px solid black;
+    background-color: MistyRose;
+    width: 95vmin;
+    height: 95vmin;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr); 
+  }
+  .square-black {
+    background-color: black;
+  }
+  .square-white {
+    background-color: white;
+  }
